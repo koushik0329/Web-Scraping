@@ -16,10 +16,10 @@ It removes unwanted substrings such as newline characters, tabs, and specific st
 
 2) p_tags.py 
 Using BeautifulSoup, it parses the HTML content.
-It finds all <p> (paragraph) elements in the parsed HTML and extracts their text content using a generator expression within the join() function. This concatenates the text of all paragraphs into a single string.
+It finds all p (paragraph) elements in the parsed HTML and extracts their text content using a generator expression within the join() function. This concatenates the text of all paragraphs into a single string.
 
 3) tagsdata.py 
 Using BeautifulSoup, it parses the HTML content.
-It defines a list of HTML tags from which text will be extracted. These include paragraph tags (<p>), heading tags (<h1> to <h6>), strong tags (<strong>), anchor tags (<a>), etc. 
+It defines a list of HTML tags from which text will be extracted. These include paragraph tags (p), heading tags (h1 to h6), strong tags (strong), anchor tags (a), etc. 
 Extracting Text: It iterates over each specified tag, extracts the text content, removes unwanted characters, and appends the cleaned text to the extracted_text list.
 It removes any empty strings from the extracted_text list.
